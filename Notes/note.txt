@@ -1,0 +1,57 @@
+    <script>
+      // //this is inline script (it wont load from different file -- this is bad for developtment)
+      // let js = 'amazing';
+      // if (js === 'amazing') alert('JavaScript is fun!')
+
+      // 40+8+23-10;
+
+      // console.log(40+8+23-10);
+
+    </script>
+
+
+    --------------------------------------------------------
+
+    Value: 
+    1. Object
+    2. Primitive
+       Number: Floating point numbers --> Used for decimals and integers 
+        let age = 23;
+
+       String: Seqience of character --> Used for text 
+       let firstName = 'Jones';
+
+       Boolean: Logical type that can only be true or false --> Used for taking decisions 
+       let fullAge = true;
+
+       Undefined: value taken by a variable that is not yet defined ('empty value')
+       let childrean;
+
+       Null: also means 'empty value'
+
+       Symbol (ES2015): value that is unique and cannot be changed (Not useful for now)
+
+       BigInt (ES2020): Larger integers than the Number type can hold 
+
+
+       *** JavaScript has dynamic typing: We do not have to manually define the data type of value
+       stored in a variable. Instead, data type are determined automatically ***
+
+       ----------------------------------------------------------
+
+       /*
+let variable can changeable (mutation)
+*/
+
+let age = 30;
+age = 31; 
+
+// const immutable and we cannot Undefined
+const birthYear = 1991;
+// birthYear = 1993;
+const job;
+
+
+// this is creating global variable, this is not good way to create a variable
+lastName = 'jxkn';
+console.log(lastName);
