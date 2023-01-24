@@ -27,3 +27,17 @@ johnHeight = 1.76;
 
 
 console.log(markMass / markHeight ** 2 > johnMass / johnHeight ** 2)
+
+
+////////////////////
+
+if(markBMI > johnBMI){
+    console.log(`Mark's BMI is higher than John's 
+    Mark's BMI ${markBMI} is higher than John's ${johnBMI}`)
+}else{
+    console.log(`John's BMI is higher and his BMI is ${johnBMI}`)
+}
+
+//////////////////
+
+
